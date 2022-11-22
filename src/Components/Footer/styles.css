@@ -1,0 +1,66 @@
+.footer_vacinas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer_vacinas_links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer_vacinas_links a {
+  background-color: #b4b4b4;
+  color: #fcfcfc;
+}
+
+.footer_vacinas_links a:link,
+a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 100px;
+  transition: all 0.2s;
+}
+
+.footer_vacinas_links a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer_vacinas_links a:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer_vacinas_links a::after {
+  background-color: #ffffff;
+}
+
+.footer_vacinas_links a:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.container_vacinas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container_vacinas span {
+  font-weight: 400;
+}
+
+.footer_vacinas h3 {
+  font-size: 0.8rem;
+}
+
